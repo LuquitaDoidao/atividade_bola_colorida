@@ -1,0 +1,14 @@
+.divvermelha{
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+
+.divazul{
+    background-color: blue;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    left: 600px;
+}

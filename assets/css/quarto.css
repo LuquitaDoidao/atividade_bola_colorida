@@ -1,0 +1,218 @@
+
+*{
+    transition: all 0.5s
+}
+
+.direitapreta{
+    background-color: black;
+    width: 10px;
+    height: 590px;
+    position: absolute;
+}
+
+.altopreto{
+    background-color: black;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+}
+
+.esquerdapreto{
+    background-color: black;
+    width: 10px;
+    height: 590px;
+    position: absolute;
+    right: 0px;
+}
+
+.baixopreto{
+    background-color: black;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.quadrovermelho{
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    bottom: 150px;
+    right: 300px;
+}
+
+.quadradoverde{
+    background-color: greenyellow;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    bottom: 200px;
+    right: 350px;
+}
+
+.bolaazul{
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+
+    bottom: 25%;
+    right: 45%;
+}
+
+.bolarosa{
+    background-color: pink;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+
+    bottom: 45%;
+    right: 70%;
+
+    animation-name: movimentorosa;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.bolaamarela{
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+
+    bottom: 70%;
+    right: 47%;
+
+    animation-name: movimentoamarelo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.bolapreta{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+
+    bottom: 20%;
+    right: 47%;
+
+    animation-name: movimentopreto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.bolaazuzim{
+    background-color: blueviolet;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+
+    bottom: 45%;
+    right: 22%;
+
+    animation-name: movimentoroxa;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes movimentoamarelo{
+    0%{
+        bottom: 70%;
+        right: 47%;
+    }
+
+    25%{
+        bottom: 45%;
+        right: 70%;
+    }
+
+    50%{
+        bottom: 20%;
+        right: 47%;
+    }
+
+    100%{
+        bottom: 45%;
+        right: 22%;
+    }
+}
+
+@keyframes movimentorosa{
+    0%{
+        bottom: 45%;
+        right: 70%;
+    }
+
+    25%{
+        bottom: 20%;
+        right: 47%;
+    }
+
+    50%{
+        bottom: 45%;
+        right: 22%;
+    }
+
+    100%{
+        bottom: 70%;
+        right: 47%;
+    }
+}
+
+@keyframes movimentopreto{
+    0%{
+        bottom: 20%;
+        right: 47%;
+    }
+
+    25%{
+        bottom: 45%;
+        right: 22%;
+    }
+
+    50%{
+        bottom: 70%;
+        right: 47%;
+    
+    }
+
+    100%{
+        bottom: 45%;
+        right: 70%;
+    }
+}
+
+@keyframes movimentoroxa{
+    0%{
+        bottom: 45%;
+        right: 22%;
+    }
+
+    25%{
+        bottom: 70%;
+        right: 47%;
+    }
+
+    50%{
+        bottom: 45%;
+        right: 70%;
+    
+    }
+
+    100%{
+        bottom: 45%;
+        right: 70%;
+    }
+}

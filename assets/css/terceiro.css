@@ -1,0 +1,64 @@
+.quadroverde{
+    background-color: green;
+    height: 80px;
+    width: 500px;
+    left: 700px;
+    position: relative;
+    
+}
+
+.retangulopreto{
+    background-color: black;
+    height: 40px;
+    width: 250px;
+    position: relative;
+    left: 250px;
+    bottom: -40px;
+}
+
+.quadromarrom{
+    background-color: brown;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
+
+.retanguloverde{
+    background-color: greenyellow;
+    height: 40px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    
+}
+
+.retangulopreto2{
+    background-color: black;
+    height: 40px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+    top: 400px;
+}
+
+.quadroazul{
+    background-color: blue;
+    width: 350px;
+    height: 300px;
+    position: relative;
+
+    left: 850px;
+    top: -250px
+}
+
+.retangulopreto3{
+    background-color: black;
+    height: 40px;
+    width: 250px;
+    position: relative;
+    top: 5px;
+    left: 100px
+}

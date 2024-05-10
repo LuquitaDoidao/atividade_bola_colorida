@@ -1,0 +1,27 @@
+.cabeca{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.zoi{
+    background-color: aqua;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    z-index: 3;
+    left: 500px;
+    top: 25px;
+}
+
+.bola{
+    background-color: rgb(230, 44, 44);
+    width: 80px;
+    height: 80px;
+    border-radius: 50px 50px 50px 50px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
